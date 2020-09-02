@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Romajify</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+	<h1>Romajify!</h1>
+	<input type="text" name="kanji" id="kanji" placeholder="Enter kanji">
+	</input>
+	<p id="output"></p>
+	<script>
+		document.getElementById('kanji').addEventListener("input", function (e) {
+			romajify(document.getElementById('kanji'), document.getElementById('output'));
+		}, false);
+	</script>
+</body>
+</html>

@@ -3,6 +3,9 @@ function romajify(input, output) {
 	for (let i = 0; i < hiragana.length; i++) {
 		out = out.replaceAll(hiragana[i][0], hiragana[i][1]);
 	}
+	for (let i = 0; i < katakana.length; i++) {
+		out = out.replaceAll(katakana[i][0], katakana[i][1]);
+	}
 	output.innerHTML = out;
 }
 

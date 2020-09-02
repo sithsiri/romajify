@@ -1,3 +1,7 @@
 function romajify(input, output) {
-	output.innerHTML = input.value;
+	let out = input.value;
+	for (let char in hiragana) {
+		out.replace(char, hiragana[char]);
+	}
+	output.innerHTML = out;
 }

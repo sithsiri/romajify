@@ -1,3 +1,9 @@
 body {
 	font-family: Roboto, sans-serif;
+	text-align: center;
+	margin: 5vh 5vw;
+}
+
+#kanji {
+	width: 100%;
 }

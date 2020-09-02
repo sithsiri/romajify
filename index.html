@@ -14,14 +14,17 @@
 </head>
 
 <body id="home">
-	<h1>Romajify!</h1>
-	<input type="text" name="kanji" id="kanji" placeholder="Enter kanji">
-	</input>
+	<h1>Romajify</h1>
+	<input type="text" name="kanji" id="kanji" placeholder="Enter Japanese text" autofocus></input>
 	<p id="output"></p>
 	<script>
 		document.getElementById('kanji').addEventListener("input", function (e) {
 			romajify(document.getElementById('kanji'), document.getElementById('output'));
 		}, false);
 	</script>
+	
+	<p>Romajify is a quick project to make it easier for me to try to understand when my friends randomly speak in Japanese. Feel free to use and suggest changes (or make them yourself and start a pull request!)</p>
+	<p>I ripped the alphabets from Wikipedia using a combination of text replacement and regex so there may be inaccuracies or missing information. Again, please feel free to start an issue to make a suggestion.</p>
+	<a href="https://github.com/sithsiri/romajify/">See the code</a>
 </body>
 </html>

@@ -1,4 +1,4 @@
-let hiragana = [
+let hiragana = {
 	"あ": "a",
 	"い": "i",
 	"う": "u",
@@ -106,4 +106,4 @@ let hiragana = [
 	"ぴゃ": "pya",
 	"ぴゅ": "pyu",
 	"ぴょ": "pyo"
-];
+};
